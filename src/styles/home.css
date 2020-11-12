@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap");
 .background {
-  background: black url(http://localhost:3000/img/background.png) repeat 5% 5%;
+  background: black url("../img/background.png") repeat 5% 5%;
   position: absolute;
   opacity: 0.1;
   left: 0;
