@@ -5,4 +5,4 @@
 ### Check out the website here
 
 deployed on [vercel](https://starwars-react-context-router-fetch.vercel.app/)
-and son [firebase](https://star-wars-react-context-router.web.app/)
+and on [firebase](https://star-wars-react-context-router.web.app/)
