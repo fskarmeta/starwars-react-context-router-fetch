@@ -60,7 +60,6 @@ iframe {
   background: transparent;
   animation: float 4s infinite ease-in-out;
 }
-//
 
 @keyframes float {
   0% {
