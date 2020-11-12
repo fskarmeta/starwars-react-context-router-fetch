@@ -43,7 +43,7 @@ export const IndividualVehicleCard = (props) => {
         <div className="col-md-6">
           <img
             className="card-img-top"
-            src={`http://localhost:3000/img/vehicles/${
+            src={`../img/vehicles/${
               !!store.currentImg && store.currentImg
             }.jpg`}
             alt="Card cap"

@@ -20,9 +20,7 @@ export const IndividualPeopleCard = (props) => {
         <div className="col-md-6">
           <img
             className="iimage"
-            src={`http://localhost:3000/img/people/${
-              !!store.currentImg && store.currentImg
-            }.jpg`}
+            src={`../img/people/${!!store.currentImg && store.currentImg}.jpg`}
             alt="Card cap"
           />
         </div>
