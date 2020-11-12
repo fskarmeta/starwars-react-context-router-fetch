@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap");
+.background {
+  background: black url(http://localhost:3000/img/background.png) repeat 5% 5%;
+  position: absolute;
+  opacity: 0.1;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 6% !important;
+  z-index: 0;
+
+  animation-name: STAR-MOVE;
+  animation-duration: 500s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+iframe {
+  z-index: 1;
+}
+
+.home-text {
+  font-family: "Orbitron", sans-serif;
+  color: rgb(204, 178, 27);
+}
+
+.star-wars-head {
+  width: 40%;
+}
+@keyframes STAR-MOVE {
+  from {
+    left: 0;
+    top: 0;
+  }
+  to {
+    left: -10000px;
+    top: -2000px;
+  }
+}
+
+.spaceship {
+  width: 5%;
+  z-index: 1;
+  opacity: 0.5;
+  position: absolute;
+  left: 14%;
+  bottom: 0;
+  top: 20%;
+  background: transparent;
+  animation: float 4s infinite ease-in-out;
+}
+.spaceship2 {
+  width: 5%;
+  z-index: 1;
+  opacity: 0.5;
+  position: absolute;
+  left: 22%;
+  bottom: 0;
+  top: 28%;
+  background: transparent;
+  animation: float 4s infinite ease-in-out;
+}
+//
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(1rem);
+    -webkit-transform: translateY(1rem);
+  }
+
+  100% {
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+  }
+}

@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap");
+body {
+  background-color: black;
+  background-image: url(http://localhost:3000/img/starwars.jpg);
+  background-size: cover;
+  font-family: "Orbitron", sans-serif;
+}
+
+.fav-num {
+  color: red;
+  /* background-color: antiquewhite; */
+}
+
+.box {
+  width: 12rem;
+  height: 12rem;
+  background-color: rgba(0, 0, 0, 0.521);
+  justify-content: center;
+  color: rgb(204, 178, 27);
+  vertical-align: middle;
+}
+
+.box:hover {
+  background-color: rgba(204, 177, 27, 0.473);
+  color: black;
+}
+
+.box:hover .box-title {
+  color: black;
+}
+
+.box-title {
+  font-size: 1rem;
+  font-weight: bold;
+  align-self: center;
+  color: rgb(209, 192, 93);
+}
+
+.box-text {
+  font-size: 1rem;
+  align-self: center;
+  font-weight: bold;
+  word-wrap: break-word;
+}
+
+.card {
+  height: 35rem;
+}
+.card-text-title {
+  color: rgb(204, 178, 27);
+}
+
+.card-title {
+  color: rgb(230, 207, 77);
+}
+
+i {
+  cursor: pointer;
+}
+i:hover {
+  color: red;
+}
+
+.bg-dark {
+  background-color: black !important;
+}
+
+.card-people {
+  height: 28rem;
+  width: 16rem;
+}
+.planet-card {
+  height: 45rem;
+}
+
+.vehicle-card {
+  height: 45rem;
+}
+
+.btn {
+  background-color: rgba(69, 62, 24, 0.299) !important;
+  border: 2px solid rgb(160, 162, 40) !important;
+  align-self: flex-end;
+}
+
+.btn:focus,
+.btn:hover {
+  outline: none;
+}
+
+.card-text {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  background-image: url(http://localhost:3000/img/galaxy.jpg);
+  height: auto;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+
+.people-img {
+  height: 10rem;
+  width: auto;
+}
+
+.planet-img {
+  height: 20rem;
+  width: auto;
+}
+
+.vehicle-img {
+  height: 20rem;
+  width: auto;
+}
+
+.iimage {
+  width: 33em;
+  height: 30em;
+}
