@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { Link, useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { Context } from "../store/appContext";
 
 export const Vehicles = () => {
@@ -18,7 +18,7 @@ export const Vehicles = () => {
                       .replace("/", "+")
                       .split(" ")
                       .join("_")}.jpg`}
-                    alt="Card image cap"
+                    alt="Card cap"
                   />
                   <div className="card-body">
                     <div>

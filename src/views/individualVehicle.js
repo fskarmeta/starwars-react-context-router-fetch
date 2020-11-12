@@ -46,7 +46,7 @@ export const IndividualVehicleCard = (props) => {
             src={`http://localhost:3000/img/vehicles/${
               !!store.currentImg && store.currentImg
             }.jpg`}
-            alt="Card image cap"
+            alt="Card cap"
           />
         </div>
         <div className="col-md-6 d-flex justify-content-center flex-column text-light">

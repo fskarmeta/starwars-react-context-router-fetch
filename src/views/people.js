@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { Link, useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { Context } from "../store/appContext";
 
 export const People = (props) => {
@@ -16,7 +16,7 @@ export const People = (props) => {
                   <img
                     className="card-img-top people-img"
                     src={`./img/people/${char.name.split(" ").join("_")}.jpg`}
-                    alt="Card image cap"
+                    alt="Card cap"
                   />
                   <div className="card-body">
                     <h5 className="card-title">{char.name}</h5>

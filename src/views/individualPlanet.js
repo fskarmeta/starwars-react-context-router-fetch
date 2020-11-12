@@ -23,7 +23,7 @@ export const IndividualPlanetCard = (props) => {
             src={`http://localhost:3000/img/planets/${
               !!store.currentImg && store.currentImg
             }.jpg`}
-            alt="Card image cap"
+            alt="Card cap"
           />
         </div>
         <div className="col-md-6 d-flex justify-content-center flex-column text-light">
