@@ -8,7 +8,6 @@ export const Favorites = () => {
     <li className="nav-item dropdown">
       <a
         className="nav-link"
-        href="#"
         id="navbarDropdown"
         role="button"
         data-toggle="dropdown"

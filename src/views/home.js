@@ -17,6 +17,7 @@ export const Home = () => (
       <div className="row mt-5">
         <div className="col-md-12 d-flex justify-content-center">
           <iframe
+            title="home video"
             width="560"
             height="315"
             src="https://www.youtube.com/embed/8Qn_spdM5Zg?autoplay=1"
