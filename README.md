@@ -6,3 +6,5 @@
 
 deployed on [vercel](https://starwars-react-context-router-fetch.vercel.app/)
 and on [firebase](https://star-wars-react-context-router.web.app/)
+
+[Alt Text](./gif.gif)
